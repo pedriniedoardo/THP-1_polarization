@@ -1,0 +1,5 @@
+          Df Pillai approx F num Df den Df    Pr(>F)    
+f          3 2.6251   10.503     18     27 6.112e-08 ***
+Residuals 12                                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

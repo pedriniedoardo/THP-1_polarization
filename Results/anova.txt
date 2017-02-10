@@ -1,0 +1,42 @@
+ Response CXCL10 :
+            Df Sum Sq Mean Sq F value    Pr(>F)    
+f            3 36.596  12.199  78.706 3.675e-08 ***
+Residuals   12  1.860   0.155                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response TNF :
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+f            3 8.4401 2.81337  75.803 4.55e-08 ***
+Residuals   12 0.4454 0.03711                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response CCL19 :
+            Df  Sum Sq Mean Sq F value   Pr(>F)    
+f            3 183.846  61.282  78.911 3.62e-08 ***
+Residuals   12   9.319   0.777                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response MRC1 :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+f            3 21.7971  7.2657  46.642 6.876e-07 ***
+Residuals   12  1.8693  0.1558                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response CCL22 :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+f            3 117.562  39.187  726.63 7.878e-14 ***
+Residuals   12   0.647   0.054                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response MSR1 :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+f            3 15.0947  5.0316  83.317 2.656e-08 ***
+Residuals   12  0.7247  0.0604                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
