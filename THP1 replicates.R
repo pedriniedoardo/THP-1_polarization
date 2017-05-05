@@ -117,13 +117,18 @@ sink()
 
 #try to use the levelplot
 library(lattice)
-#I perform the normalization of each variable by the mean of expression variablewise
+#I perform the normalization of each variable by the mean of expression variable wise and divide by its sd
 r2<-apply(m,MARGIN = 2,FUN = mean)
+s2<-apply(m,MARGIN = 2,FUN = sd)
 m2<-t(m)
-m3<-t(m2-r2)
-rownames(m3)<-f
+#m3<-t(m2-r2)
+m4<-t((m2-r2)/s2)
+#rownames(m3)<-f
+rownames(m4)<-f
 color=colorRampPalette(c("green","black","red"),space="rgb") 
-levelplot(m3,col.regions=color(100),xlab="samples",ylab="genes")
+#levelplot(m3,col.regions=color(100),xlab="samples",ylab="genes")
+levelplot(m4,col.regions=color(100),xlab="samples",ylab="genes")
+
 
 #PCA
 library(ggfortify)
